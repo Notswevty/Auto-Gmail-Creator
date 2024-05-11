@@ -1,5 +1,6 @@
 # from selenium import webdriver
 from seleniumwire import webdriver
+from seleniumwire import blinker._saferef
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options as ChromeOptions
@@ -17,7 +18,6 @@ import datetime
 import requests
 import csv
 import string
-import blinker._saferef
 from fp.fp import FreeProxy
 from fake_useragent import UserAgent
 
