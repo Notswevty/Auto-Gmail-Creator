@@ -17,6 +17,7 @@ import datetime
 import requests
 import csv
 import string
+import blinker._saferef
 from fp.fp import FreeProxy
 from fake_useragent import UserAgent
 
